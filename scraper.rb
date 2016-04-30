@@ -3,7 +3,7 @@
 
 require 'scraperwiki'
 
-ScraperWiki.sqliteexecute("DROP TABLE `data`"
+ScraperWiki.sqliteexecute("DROP TABLE `data`")
 
 # An arbitrary query against the database
 # ScraperWiki.select("* from data where 'name'='peter'")
