@@ -3,8 +3,8 @@
 
 require 'scraperwiki'
 
-ScraperWiki.save_sqlite(["name"], {"name" => "susan", "occupation" => "software developer"}) 
-# ScraperWiki.sqliteexecute("DROP TABLE `data`")
+# ScraperWiki.save_sqlite(["name"], {"name" => "susan", "occupation" => "software developer"}) 
+ScraperWiki.sqliteexecute("DROP TABLE `data`")
 
 # An arbitrary query against the database
 # ScraperWiki.select("* from data where 'name'='peter'")
